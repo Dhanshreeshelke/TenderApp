@@ -8,7 +8,7 @@ const TenderTable = () => {
     const [selectedTender, setSelectedTender] = useState(null);
 
     useEffect(() => {
-        fetch('https://thingproxy.freeboard.io/fetch/https://tenders.guru/api/es/tenders') // Using a different CORS proxy
+        fetch('https://thingproxy.freeboard.io/fetch/https://tenders.guru/api/es/tenders') 
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
@@ -16,8 +16,8 @@ const TenderTable = () => {
                 return response.json();
             })
             .then(data => {
-                const tenderData = data.data; // Adjust based on actual response structure
-                console.log(tenderData); // Log the tender data
+                const tenderData = data.data; 
+                console.log(tenderData); 
                 setTenders(tenderData);
                 setLoading(false);
             })
