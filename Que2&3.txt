@@ -1,0 +1,53 @@
+Question 2:There are 144 horses among which we need to find out the fastest 11 horses. In each race, only
+12 horses can run simultaneously because there are only 12 tracks. You cannot use a
+stopwatch; you only know the finishing order of each race.
+
+
+Answer : 
+Since I can only run 12 horses at a time, I divided the 144 horses into 12 groups of 12.
+I ran 1 race for each group — this gave me the ranking inside each group (1st to 12th).
+
+Total races so far: 12 races.
+
+Then I took the 12 winners — one from each group — and raced them together.
+This helped me figure out which groups had the fastest horses overall.
+
+ After this, I knew the top 11 winners from this race are potential candidates for the overall top 11.
+
+
+Total races so far: 12 + 1 = 13 races
+
+Now I thought: maybe the 2nd or 3rd place horses from the groups of these top 11 winners could also be faster than other horses
+
+So from the groups of the top 11 finishers, I also selected their 2nd and 3rd place horses — because they still had a chance to be in the overall top 11
+
+This gave me 33 horses to consider:
+
+11 (from winners race top 11)
+
+22 (2nd & 3rd from those 11 groups)
+
+Finally, I needed to sort these 33 horses to know exactly which 11 are fastest.
+Since I can only race 12 horses at a time, I needed 3 more races for this
+
+
+12 (initial group races) + +1 (winners race) + 3 (final sorting of 33 horses) = 16 races
+
+So Final answer is :16 races will require.
+
+Assumption I made:
+
+1)  I assumed no ties — that every horse can be ranked in each race
+
+2) I treated all initial groups equally — at first, I don’t know which groups are strong or weak.
+
+
+
+Question 3 : Please tell us why you are specifically interested in this Frontend Developer role at VOPA?
+Connect your interest to both the technical aspects of the role (as described in the JD) and
+VOPA's mission.
+
+Answer :
+I want to bring my frontend expertise—building accessible, performance-optimized, multilingual apps—to a mission that truly matters. VOPA's meaningful work in education & mental health through tech, its scalable impact.
+
+I’m excited to help build the next generation of features that empower students, support teachers, and drive real equity—right from the code I write every day.
